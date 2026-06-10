@@ -4,3 +4,106 @@
     box-sizing: border-box; 
     background-color: beige;
 }
+
+
+/*Tipografías Generales*/
+.logo {
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.menu {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+
+}
+
+/*Tipografías específicas*/
+
+.titulo-hero {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 4rem;
+    color: white;
+}
+
+.subtitulo-hero {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.botón-tickets {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: white;
+}
+
+
+
+
+.titulo-secciones {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+
+}
+
+.texto {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+
+.info-principal{
+    font-family: "Pathway Extreme", sans-serif;
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+
+.cast {
+    font-family: "Poller One", sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.formulario-texto {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*Elementos Generales*/
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 30px;
+}
