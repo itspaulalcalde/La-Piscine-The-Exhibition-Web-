@@ -59,6 +59,13 @@
     font-size: 1rem;
 }
 
+.texto2 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+
 
 .info-principal{
     font-family: "Pathway Extreme", sans-serif;
@@ -80,19 +87,22 @@
 }
 
 
-
-
-
-
-
-
-
-
 /*Elementos Generales*/
-
 .menu a {
     text-decoration: none;
     color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5vw;
+    padding-right: 1vw;
+}
+
+.logo {
+    padding-left: 1vw;
 }
 
 .menu ul{
@@ -101,9 +111,132 @@
     list-style: none;
 }
 
-nav {
+
+
+
+
+/*HOME*/
+.img-hero {
+    width: 100%;
+    padding-top: 0.5vw;
+}
+
+.botón-tickets {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 30px;
-    padding-top: 30px;
+    justify-content: center;
+}
+
+.titulo-hero {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo-hero {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vw;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+
+
+.info-principal {
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+    margin: 4vw;
+}
+
+.info-opening,
+.info-localizacion,
+.info-tickets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.gallery{
+    display: flex;
+    gap: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 7vw;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.column img{
+    width: 100%;
+}
+
+
+
+/*ABOUT*/
+.img-hero-about {
+    width: 100%;
+    padding-top: 0.5vw;
+}
+
+
+.about-the-film {
+    display: flex;
+}
+
+
+.about-the-film-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-the-film img {
+    width: 90%;
+}
+
+
+
+.inside-exhibition img {
+    width: 100%;
+}
+
+
+
+.inside-exhibition-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+}
+
+.inside-exhibition-texto h1 {
+   width: 40%;
+   margin-bottom: 0.5vw;
+}
+
+.inside-exhibition p {
+    width: 40%;
+    margin-bottom: 1.5vw;
+}
+
+
+
+
+/*TICKETS*/
+.img-hero-tickets {
+    width: 100%;
+    padding-top: 0.5vw;
+}
+
+.inside-the-exhibition-img img {
+    width: 100%;
 }
