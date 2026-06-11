@@ -2,8 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-    background-color: beige;
 }
+
+
 
 
 /*Tipografías Generales*/
@@ -88,6 +89,10 @@
 
 
 /*Elementos Generales*/
+body {
+    background-color: beige;
+}
+
 .menu a {
     text-decoration: none;
     color: black;
@@ -121,6 +126,16 @@
     padding-top: 0.5vw;
 }
 
+.contenido-hero {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .botón-tickets {
     display: flex;
     justify-content: center;
@@ -129,6 +144,7 @@
 .titulo-hero {
     display: flex;
     justify-content: center;
+    font-size: 7rem;
 }
 
 .subtitulo-hero {
@@ -140,7 +156,8 @@
 .texto {
     display: flex;
     justify-content: center;
-    margin-bottom: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
 }
 
 
@@ -187,28 +204,53 @@
     padding-top: 0.5vw;
 }
 
+.cast {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 8vw;
+    margin: 4vw;
+}
+
 
 .about-the-film {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
 
 .about-the-film-texto {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
+
+.about-the-film h1 {
+    width: 40%;
+}
+
+.about-the-film p {
+    width: 40%;
+    margin-bottom: 1.5vw;
+}
+
 
 .about-the-film img {
     width: 90%;
 }
 
 
+.info-principal {
+    text-align: center;
+}
+
+
+
 
 .inside-exhibition img {
     width: 100%;
 }
-
-
 
 .inside-exhibition-texto {
     display: flex;
