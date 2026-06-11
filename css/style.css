@@ -121,30 +121,33 @@ body {
 
 
 /*HOME*/
+.hero-home {
+    position: relative;
+    width: 100%;
+}
+
 .img-hero {
     width: 100%;
+    display: block;
     padding-top: 0.5vw;
 }
 
 .contenido-hero {
     position: absolute;
-    top: 40%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
-.botón-tickets {
-    display: flex;
-    justify-content: center;
-}
 
 .titulo-hero {
     display: flex;
     justify-content: center;
-    font-size: 7rem;
+    font-size: 8rem;
 }
 
 .subtitulo-hero {
@@ -199,6 +202,11 @@ body {
 
 
 /*ABOUT*/
+.hero-about {
+    position: relative;
+    width: 100%;
+}
+
 .img-hero-about {
     width: 100%;
     padding-top: 0.5vw;
@@ -208,8 +216,15 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 8vw;
+    gap: 10vw;
     margin: 4vw;
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 1rem;
 }
 
 
@@ -217,6 +232,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 2vw;
+    height: 50vh;
 }
 
 .about-the-film-texto {
@@ -237,7 +254,8 @@ body {
 
 
 .about-the-film img {
-    width: 90%;
+    padding-top: 1vw;
+    width: 70%;
 }
 
 
