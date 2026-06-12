@@ -36,6 +36,7 @@
     <!--Iconos Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
@@ -44,14 +45,30 @@
 
         <h1 class="logo">MAISON DU CINÉMA</h1>
 
-        <nav>
+        <nav class="nav-desktop">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="tickets.html">TICKETS</a></li>
             </ul>
         </nav>
+
+        <input type="checkbox" id="sideMenu" class="side-menu">
+
+        <label class="hamb" for="sideMenu">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </label>
+
+        <nav class="nav-mobile">
+            <ul class="menu-mobile">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="tickets.html">TICKETS</a></li>
+            </ul>
+        </nav>
     </div>
+
 
 
     <header class="hero-home">

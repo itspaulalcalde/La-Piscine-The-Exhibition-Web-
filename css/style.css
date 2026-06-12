@@ -4,6 +4,9 @@
     box-sizing: border-box; 
 }
 
+body {
+    background-color: beige;
+}
 
 
 
@@ -74,14 +77,6 @@
     font-size: 0.7rem;
 }
 
-
-.cast {
-    font-family: "Poller One", sans-serif;
-    font-weight: 100;
-    color: white;
-}
-
-
 .formulario-texto {
     font-family: "Elms Sans", sans-serif;
     font-weight: 500;
@@ -95,9 +90,10 @@
 }
 
 
-/*Elementos Generales*/
-body {
-    background-color: beige;
+
+/*Menú Desktop*/
+.logo {
+    padding-left: 1vw;
 }
 
 .menu a {
@@ -113,15 +109,82 @@ body {
     padding-right: 1vw;
 }
 
-.logo {
-    padding-left: 1vw;
-}
-
 .menu ul{
     display: flex;
     gap: 1.5rem;
     list-style: none;
 }
+
+
+/*Menú Tablet & Móvil*/
+.nav-mobile {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #6f745c;
+    z-index: 9999;
+
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s;
+}
+
+.menu-mobile {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-mobile li a {
+    font-size: 40px;
+    color: white;
+}
+
+
+/*Menú Iconos*/
+.hamb {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+
+    z-index: 10000;
+}
+
+.side-menu {
+    display: none;
+}
+
+.hamb .fa-xmark {
+    display: none;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.side-menu:checked ~ .nav-mobile {
+    max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .fa-bars {
+    display: none;
+}
+
+.side-menu:checked ~ .hamb .fa-xmark {
+    display: block;
+}
+
+
+
+
+
+
+
 
 
 
@@ -357,6 +420,7 @@ body {
 
 
 
+
 /*FOOTER*/
 footer {
     display: flex;
@@ -434,3 +498,17 @@ footer {
     gap: 2vw;
 }
 
+
+
+
+/*Media Queries Menú*/
+@media screen and (max-width: 720px) {
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .hamb {
+        display: block;
+    }
+}
