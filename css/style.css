@@ -81,10 +81,17 @@
     color: white;
 }
 
+
 .formulario-texto {
     font-family: "Elms Sans", sans-serif;
     font-weight: 500;
-    font-size: 0.7rem;
+    font-size: 1rem;
+}
+
+.formulario-subtexto {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 
@@ -129,7 +136,7 @@ body {
 .img-hero {
     width: 100%;
     display: block;
-    padding-top: 0.5vw;
+    padding-top: 1vw;
 }
 
 .contenido-hero {
@@ -300,3 +307,130 @@ body {
 .inside-the-exhibition-img img {
     width: 100%;
 }
+
+
+
+.seleccion-tickets {
+    width: 75%;
+    margin: auto;
+    padding: 7vh 0;
+}
+
+.titulo-secciones {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 0.8vw;
+}
+
+.titulo-otras-secciones p {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.8vw;
+}
+
+.text {
+    font-size: 1rem;
+    margin-bottom: 35px;
+    font-family: "Poiret One", sans-serif;
+}
+
+
+
+
+
+
+.caja-tickets {
+    border: 1px solid #222;
+    margin-bottom: 35px;
+    padding: 0 0 3vh 0;
+}
+
+
+
+.caja-tickets > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #6f745c;
+    color: white;
+    padding: 3%;
+    margin: 0;
+    gap: 6vw;
+}
+
+.footer-logo {
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.footer-eslogan {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+    text-align: center;
+    font-family: "Elms Sans", sans-serif;
+}
+
+.footer-info h3 {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-info p {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5vw;
+    color: white;
+
+}
+
+.social-icons a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.footer-bottom div {
+    display: flex;
+    gap: 2vw;
+}
+
